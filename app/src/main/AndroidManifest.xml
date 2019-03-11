@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.getservices">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".buttonMail2"></activity>
+        <activity android:name=".buttonCall2" />
+        <activity android:name=".buttonMail" />
+        <activity android:name=".buttonCall" />
+        <activity android:name=".rrBroker" />
+        <activity android:name=".rrFarmer" />
+        <activity android:name=".rrLabour" />
+        <activity android:name=".rrPolice" />
+        <activity android:name=".rrDoctor" />
+        <activity android:name=".rrEmergency" />
+        <activity android:name=".rrDentist" />
+        <activity android:name=".rrSoftwareDeveloper" />
+        <activity android:name=".rrGardener" />
+        <activity android:name=".rrLibrarian" />
+        <activity android:name=".rrDesigner" />
+        <activity android:name=".rrHomeTutor" />
+        <activity android:name=".rrPlumber" />
+        <activity android:name=".rrBricksLayer" />
+        <activity android:name=".rrElectrician" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".Broker" />
+        <activity android:name=".Farmer" />
+        <activity android:name=".Labour" />
+        <activity android:name=".Police" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".Dentist" />
+        <activity android:name=".SoftwareDeveloper" />
+        <activity android:name=".Gardener" />
+        <activity android:name=".Librarian" />
+        <activity android:name=".Designer" />
+        <activity android:name=".HomeTutor" />
+        <activity android:name=".Plumber" />
+        <activity android:name=".BricksLayer" />
+        <activity android:name=".Electrician" />
+        <activity android:name=".Mymensingh" />
+        <activity android:name=".Chottogram" />
+        <activity android:name=".Khulna" />
+        <activity android:name=".Barishal" />
+        <activity android:name=".Dhaka" />
+        <activity android:name=".Sylhet" />
+        <activity android:name=".Rangpur" />
+        <activity android:name=".Rajshahi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
